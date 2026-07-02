@@ -1,0 +1,1 @@
+import{Router}from'express';import{getProgress,createProgress,updateProgress,deleteProgress}from'../controllers/progressController.js';const router=Router();router.get('/',getProgress);router.post('/',createProgress);router.put('/:id',updateProgress);router.delete('/:id',deleteProgress);export default router;

@@ -1,0 +1,1 @@
+import{Router}from'express';import{getResume,createResume,updateResume,deleteResume}from'../controllers/resumeController.js';const router=Router();router.get('/',getResume);router.post('/',createResume);router.put('/:id',updateResume);router.delete('/:id',deleteResume);export default router;

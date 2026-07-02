@@ -1,0 +1,1 @@
+import{Router}from'express';import{getQuestion,createQuestion,updateQuestion,deleteQuestion}from'../controllers/questionController.js';const router=Router();router.get('/',getQuestion);router.post('/',createQuestion);router.put('/:id',updateQuestion);router.delete('/:id',deleteQuestion);export default router;

@@ -1,0 +1,1 @@
+export const analyzeResume=async text=>({score:70,suggestions:['Add skills','Add achievements'],textLength:text?.length||0});
