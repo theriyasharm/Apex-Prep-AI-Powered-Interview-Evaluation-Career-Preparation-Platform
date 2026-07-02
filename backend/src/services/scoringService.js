@@ -1,0 +1,1 @@
+export const calculateScore=answers=>(answers?.length||0)*10;

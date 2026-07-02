@@ -1,0 +1,1 @@
+import{Router}from'express';import{getInterview,createInterview,updateInterview,deleteInterview}from'../controllers/interviewController.js';const router=Router();router.get('/',getInterview);router.post('/',createInterview);router.put('/:id',updateInterview);router.delete('/:id',deleteInterview);export default router;

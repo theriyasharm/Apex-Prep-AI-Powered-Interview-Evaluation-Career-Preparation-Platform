@@ -1,0 +1,1 @@
+import{Router}from'express';import{getAuth,createAuth,updateAuth,deleteAuth}from'../controllers/authController.js';const router=Router();router.get('/',getAuth);router.post('/',createAuth);router.put('/:id',updateAuth);router.delete('/:id',deleteAuth);export default router;

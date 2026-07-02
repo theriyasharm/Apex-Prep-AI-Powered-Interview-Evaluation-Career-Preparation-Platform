@@ -1,0 +1,1 @@
+import{Router}from'express';import{getDashboard,createDashboard,updateDashboard,deleteDashboard}from'../controllers/dashboardController.js';const router=Router();router.get('/',getDashboard);router.post('/',createDashboard);router.put('/:id',updateDashboard);router.delete('/:id',deleteDashboard);export default router;

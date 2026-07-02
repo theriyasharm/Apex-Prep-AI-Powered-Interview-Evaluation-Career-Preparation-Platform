@@ -1,0 +1,1 @@
+export const sendEmail=async data=>({success:true,...data});
