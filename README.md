@@ -1,0 +1,2 @@
+# Apex-Prep-AI-Powered-Interview-Evaluation-Career-Preparation-Platform
+Apex Prep is an AI-powered interview preparation platform that combines mock interviews, AI-based resume analysis, job recommendations, and performance analytics in one application. It provides personalized feedback, role-specific interview practice, and semantic resume-job matching to help students improve employability and placement readiness.
